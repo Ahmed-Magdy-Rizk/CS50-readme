@@ -16,23 +16,23 @@ My project is a web-based application using Flask. My web application is a simul
 
 2- register.html (you shoud type in your name, email and password to make a new account)
 
-2- index.html (contains account name, account number (only six-digit number), account email, total input cash into the account (wether you deposit or other user transfered it from their account), total output cash from the account (wether you withdraw it or you transfered it to other account), and you total balance
+3- index.html (contains account name, account number (only six-digit number), account email, total input cash into the account (wether you deposit or other user transfered it from their account), total output cash from the account (wether you withdraw it or you transfered it to other account), and you total balance
 
-3- deposit.html (it allows you to deposit money to your account)
+4- deposit.html (it allows you to deposit money to your account)
 
-4- withdrawl.html (it allows you to withdraw money from your account)
+5- withdrawl.html (it allows you to withdraw money from your account)
 
-5- transfer.html (it allows you to transfer moeny to other account if you know the other account number)
+6- transfer.html (it allows you to transfer moeny to other account if you know the other account number)
 
-6- report.html (it displays your bank statement)
+7- report.html (it displays your bank statement)
 
-7- change_email (it allows you to change your default email)
+8- change_email (it allows you to change your default email)
 
-8- change_password (it allows you to change your password)
+9- change_password (it allows you to change your password)
 
-9- apology (this is the failure template to demonstrate to the user what exactly they did wrong)
+10- apology (this is the failure template to demonstrate to the user what exactly they did wrong)
 
-10- login (you should to type in your name and your password to loging)
+11- login (you should to type in your name and your password to loging)
 
 
 ##### 3- helpers.py
@@ -42,9 +42,12 @@ My project is a web-based application using Flask. My web application is a simul
 ##### 4-clints.db
 - this data base contains two tables, first users and the second is ledger
 
-5- app.py
+##### 5-app.py
 - all the code in this file
 
+##### 6- requirements.txt
+
+- That file simply prescribes the packages on which this app will depend.
 
 #### Requirements:
 
